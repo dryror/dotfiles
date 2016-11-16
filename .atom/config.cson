@@ -1,0 +1,34 @@
+"*":
+  core:
+    disabledPackages: [
+      "linter"
+    ]
+    projectHome: "/Users/rory/Projects"
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor:
+    fontFamily: "Consolas"
+    fontSize: 16
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "c1e0c87e-cf7a-b994-6eac-c8f6bc26739d"
+  linter:
+    lintOnFlyInterval: 1000
+    showErrorPanel: false
+    statusIconScope: "File"
+  "linter-eslint": {}
+  react: {}
+  "seti-ui":
+    compactView: true
+  tabs:
+    usePreviewTabs: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
