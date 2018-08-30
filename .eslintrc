@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "comma-dangle": ["error", "always-multiline"],
+        "indent-legacy": ["error", 4, { "SwitchCase": 1 }],
+        "no-console": ["error", { "allow": ["warn", "error"] }],
+        "vue/html-indent": ["error", 4]
+    },
+    "parserOptions": {
+        "parser": "babel-eslint"
+    }
+}
